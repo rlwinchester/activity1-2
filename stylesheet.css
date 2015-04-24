@@ -1,0 +1,164 @@
+.clear {
+    clear:both;
+}
+#parentdiv {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.hovered {
+	box-shadow:0 0 10px #333;
+}
+table{
+    clear:both;
+    margin-left: 150px;
+    padding:5px;
+    text-align:left;
+    }
+td {
+    border: 2px solid black;
+    width:25%;
+    max-width:201px;
+}
+th {
+    max-width:201px;
+}
+#main {
+    clear:both;
+    width:744px;
+    height:517px;
+    margin-top:25px;
+    margin-bottom:25px;
+    background-image:url("images/desktop.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    float:left;
+}
+.inactivetile {
+    clear:both;
+    background-image:url("images/blanktile.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    color:dimgrey;
+    height:70px;
+    width:177px;
+    float:left;
+    line-height:70px;
+    text-align:center;
+    font-weight:100;
+    cursor:move;
+  
+}
+.correcttile {
+    background-image:url("images/correcttile.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    color:green;
+    height:70px;
+    width:177px;
+    float:left;
+    line-height:70px;
+    text-align:center;
+    font-weight:100;
+    cursor:move;
+}
+.incorrecttile {
+    background-image:url("images/incorrecttile.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    color:red;
+    height:70px;
+    width:177px;
+    float:left;
+    line-height:70px;
+    text-align:center;
+    font-weight:100;
+    cursor:move;
+}
+.droptile{
+    height:35px;
+    width:150px;
+//    background-color:blue;
+    opacity:.5;
+}
+#psudrop {
+    position:absolute;
+    top:39px;
+    left:140px;
+}
+#motherboarddrop {
+    position:absolute;
+    top:511px;
+    left:255px;
+}
+#opticaldrop {
+    position:absolute;
+    top:150px;
+    left:585px;
+}
+#storagedrop {
+    position:absolute;
+    top:300px;
+    left:585px;
+}
+#videocarddrop {
+    position:absolute;
+    top:338px;
+    left:15px;
+}
+#psufandrop {
+    position:absolute;
+    top:178px;
+    left:15px;
+}
+#pcidrop {
+    position:absolute;
+    top:466px;
+    left:162px;
+}
+#cpudrop {
+    position:absolute;
+    top:230px;
+    left:15px;
+}
+#cpufandrop {
+    position:absolute;
+    top:283px;
+    left:15px;
+}
+#memorydrop {
+    position:absolute;
+    top:86px;
+    left:255px;
+}
+.reset {
+    clear:both;
+    background-image:url("images/blanktile.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    height:70px;
+    background-color:transparent;
+    width:177px;
+    float:left;
+    line-height:70px;
+    text-align:center;
+    font-weight:100;
+    border:0px;
+    cursor:pointer;
+    outline:0;
+}
+.reset:active {
+    clear:both;
+    background-image:url("images/active.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-color:transparent;
+    height:70px;
+    width:177px;
+    float:left;
+    line-height:70px;
+    text-align:center;
+    font-weight:100;
+    border:0px;
+    cursor:pointer;
+}
